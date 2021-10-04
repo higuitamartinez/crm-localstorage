@@ -1,0 +1,59 @@
+/* tabla-cliente */
+
+.tabla-clientes{
+    border-collapse: collapse;
+    min-width: 100%;
+    th{
+        background-color: #D9D9D9;
+        color: $grisFuente;
+        text-transform: uppercase;
+        padding: 1.5rem 2.5rem;
+        text-align: left;
+        font-size: 1.3rem;
+        font-weight: $bold;
+    }
+
+    td{
+        padding: 1rem 2rem 1.5rem 2.5rem;
+        background-color: $blanco;
+        border-bottom: solid 1.5px $grisClaro;
+        color: $grisFuente;
+    }
+
+    
+
+    .tabla-datos{
+        .nombre{
+            font-size: 1.8rem;
+            font-weight: $bold;
+            margin:1rem 0;
+        }
+        .correo{
+            font-size: 1.4rem;
+            margin: .5rem 0 0 0;
+        }
+    }
+
+    .tabla-empresa{
+        color: #7B838C;
+    }
+
+    .tabla-acciones{
+        display: flex;
+        flex-wrap:wrap;
+        a{
+            margin-right: 2rem;
+            &:last-of-type{
+                margin-right: 0;
+            }
+        }
+
+        .actualizar{
+            color: #44A65C;
+        }
+
+        .eliminar{
+            color: #D92B2B;
+        }
+    }
+}

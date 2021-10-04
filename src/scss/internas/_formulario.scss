@@ -1,0 +1,37 @@
+/* .formulario */
+
+.formulario-clientes{
+    padding: 2rem;
+    background-color: $blanco;
+    border-radius: 1rem;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.8rem;
+
+    &:last-of-type{
+        margin-bottom: 0;
+    }
+    label{
+        font-weight: $bold;
+        margin-bottom: .5rem;
+        color: $grisFuente;
+    }
+
+    input{
+        padding: 1rem 1.5rem;
+        border: solid 1px $grisOscuro;
+        border-radius: .5rem;
+
+        &::placeholder{
+            color: #adadad;
+        }
+
+        &:focus{
+            outline: none;
+            border: solid 2px #88C9F2;
+        }
+    }
+}

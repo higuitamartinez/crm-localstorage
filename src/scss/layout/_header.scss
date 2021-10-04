@@ -1,0 +1,42 @@
+/* Layout */
+
+
+.header{
+    background-color: $verde;
+    padding: 4rem 1rem;
+    color: $blanco;
+
+    @include tablet{
+        min-height: 100%;
+    }
+
+    .header-titulo{
+        text-transform: uppercase;
+        font-weight: $black;
+    }
+
+    .header-parrafo{
+        margin: 3.5rem 0;
+    }
+}
+
+
+.navegacion{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    a{
+        color: $blanco;
+        padding: 1rem;
+        margin-bottom: .6rem;
+
+        &:hover{
+            background-color: $verdeOscuro;
+            color: $amarillo;
+        }
+
+        &:last-of-type{
+            margin-bottom: 0;
+        }
+    }
+}

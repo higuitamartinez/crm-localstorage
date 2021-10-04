@@ -1,0 +1,23 @@
+/* Boton */
+
+.btn{
+    padding: 1rem 1.5rem;
+    text-align: center;
+    color: $blanco;
+    font-weight: $bold;
+    border: none;
+    width: 100%;
+    margin-top: 2rem;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.btn-verde{
+    background-color: $verde;
+
+    &:hover{
+        background-color: $verdeOscuro;
+    }
+}
